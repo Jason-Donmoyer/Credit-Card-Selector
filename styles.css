@@ -1,0 +1,10 @@
+/******************** MAIN STYLES ********************/
+
+main {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
