@@ -1,5 +1,11 @@
 /******************** MAIN STYLES ********************/
 
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 main {
     height: 100vh;
     margin: 0;
@@ -7,4 +13,120 @@ main {
     background-image: url(img/background.jpg);
     background-size: cover;
     background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+
 }
+
+.container {
+    width: 350px;
+    height: 330px;
+    background-color: azure;
+    margin-top: 100px;
+}
+
+.dots {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin: 5px;
+}
+
+.dot-dark {
+    background-color: gray;
+}
+
+.container h1 {
+    padding: 4px 4px 20px 4px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.payment-container {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.visa-container {
+    background-image: url('img/visa.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.mastercard-container {
+    background-image: url('img/mastercard.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+.maestro-container {
+    background-image: url('img/maestro.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+
+.payment-container h3 {
+    margin-left: 80px;
+}
+
+.payment-container img {
+    position: absolute;
+    top: 0;
+    left: 275px;
+}
+
+.checked {
+    display: inline;
+}
+
+.not-checked {
+    display: none;
+}
+/* .divider {
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+
+.payment-button {
+    padding-top: 0;
+    height: 50px;
+}
+
+.payment-button button {
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+    color: #fff;
+    background-color: #0f67ff;
+    font-size: 14px;
+}
+
+.payment-button button img {
+    position: absolute;
+    top: 13px;
+    left: 215px;
+}
+
